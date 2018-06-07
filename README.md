@@ -1,7 +1,7 @@
 ## TRandom
 ### A wrapper class around the std::random library
 
-This simple library allow developer to generate random values easily, both built-in types and custom types, using one single header and one simple function call. Currently to generate good random values we need several lines of codes and several classes (distribution, engines etc.). Additionally, there is no support for random custom types generation. 
+This simple library allow developer to generate random values easily, both built-in types and custom types, using one single header and one simple function call. Currently to generate good random values we need several lines of codes and several classes (distribution, engines etc.). Additionally, there is support for random custom types generation. 
 
 The **TRandom** library solves this problem by providing 2 classes, one for built-in types and one for custom types. Each class implements 3 functions: Value, ValueParam, and Range.
 
